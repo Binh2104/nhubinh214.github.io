@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="sp.css">
+  
+
+</head>
+<body> 
+  
+    <nav class="navbar navbar-default" role="navigation" style="background-color: black;">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Title</a>
+        </div>
+    
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="#">Link</a></li>
+            </ul>
+            <form class="navbar-form navbar-left" role="search">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Search">
+                </div>
+            </form>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">Login</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li><a href="#">Separated link</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </nav>
+
+    <!-- baner-slide -->
+
+    <div class="container">
+    <div id="carousel-id" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-id" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-id" data-slide-to="1" class=""></li>
+            <li data-target="#carousel-id" data-slide-to="2" class=""></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="item active">
+                 <img data-src="holder.js/900x500/auto/#666:#6a6a6a/text:Second slide" alt="Second slide" src="baner1.png"> 
+            </div>
+            <div class="item">
+                <img data-src="holder.js/900x500/auto/#666:#6a6a6a/text:Second slide" alt="Second slide" src="baner2.png">
+            </div>
+            <div class="item">
+                <img data-src="holder.js/900x500/auto/#555:#5a5a5a/text:Third slide" alt="Third slide" src="baner3.png">
+            </div>
+        </div>
+        <a class="left carousel-control" href="#carousel-id" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+        <a class="right carousel-control" href="#carousel-id" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+    </div>
+</div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+   <script> $('#carousel-id').carousel({
+        interval: 2000
+    })</script>
+    
+    <div class="container">
+       
+        <h2 class="text-center">Sản phẩm nổi bật </h2>
+        
+        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+            <div class="itemss">
+            <img src="img/sp1.jpg" alt="" class="img-responsive" id="hii"></div>
+            <a class="text-center btn btn-block btn-primary" >Áo sơ mi loại 1</a> 
+            <h4 class="text-center">99.000 VND</h4>
+        </div>
+         <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 ">
+             <div class="itemss">
+             <img src="img/sp2.jpg" alt="" class="img-responsive" id="hii" ></div>
+            <a class="text-center  btn btn-block btn-primary"">Áo sơ mi công sở</a>
+            <h4 class="text-center">200.000 VND</h4>
+        </div>
+         <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+             <div class="itemss">
+             <img src="img/sp3.jfif" alt="" class="img-responsive" id="hii"></div>
+            <a class="text-center  btn btn-block btn-primary"">Áo phông unisex</a>
+            <h4 class="text-center">100.000 VND</h4>
+        </div>
+         <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3"class="sp" >
+             <div class="itemss">
+             <img src="img/sp4.jfif" alt="" class="img-responsive" id="hii"> </div>
+            <a class="text-center  btn btn-block btn-primary"">Áo nữ công sở</a>
+            <h4 class="text-center">456.000 VND</h4>
+        </div>
+        
+    </div>
+    
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,19 @@
+ body{
+     background-image:url(back.png);
+     
+ }
+ *{
+    box-sizing: border-box;
+}
+.itemss{
+    overflow:hidden;
+}
+img #hii{
+    transform:translate;
+    transition: 5s all;
+    transform: scale(1) rotate(0);
+    
+}
+.itemss:hover img{
+    transform: scale(1.5) rotate(45deg);
+}
