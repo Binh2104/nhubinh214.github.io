@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            width: 800px;
+            margin: 0 auto;
+            height: 500px;
+            border: 1px solid black;
+            background-color: #dddddd;
+            font-size: 20px;
+        }
+        
+        label {
+            float: right;
+        }
+        
+        span {
+            font-size: 15px;
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <form action="" name="f"></form>
+        <tr>
+            <th colspan="2">Registration</th>
+        </tr>
+        <tr>
+            <td float="right">
+                <label for="fullname">User Name <sup style="color:red;">(*)</sup></label>
+            </td>
+            <td>
+                <input type="text" id="fullname" placeholder="Vd:nhubinh">
+                <br><span id="mes1"> </span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="age">Age <sup style="color:red;">(*)</sup></label>
+            </td>
+            <td>
+                <input type="text" id="age" placeholder="(1-199)">
+                <br>
+                <span id="mes2"> </span>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="gender">Gender <sup style="color:red;">(*)</sup></label>
+            </td>
+            <td id="hihi">
+                <input type="checkbox" id="gender1"> Male
+                <input type="checkbox" id="gender2"> Female
+                <br><span id="mes3"></span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="phone">Phone <sup style="color:red;">(*)</sup></label>
+            </td>
+            <td>
+                <input type="text" id="phone" placeholder="VD:(035).777.444">
+                <br><span id="mes4"> </span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="email">Email <sup style="color:red;">(*)</sup></label>
+            </td>
+            <td>
+                <input type="text" id="email" placeholder="@gmail.com">
+                <br><span id="mes5"> </span>
+            </td>
+        </tr>
+        <tr>
+            <th colspan="2">
+                <button type="submit" value="Submit" style="background-color: skyblue;" onclick="validateform()"><span style="font-size:20px; color:black; ;">Submit</span></button>
+                </button>
+                <button type="reset" value="Reset" style="background-color:rgb(233, 27, 27);">
+                    <span style="font-size:20px; color:black; ">Reset</span>
+                    </button>
+            </th>
+        </tr>
+        </form>
+    </table>
+    <script src="validateform.js"></script>
+</body>
+
+</html>
